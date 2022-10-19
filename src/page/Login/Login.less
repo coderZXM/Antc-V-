@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(../../assets//img//LoginB.jpg);
+    background-size: 100% 100%;
+}
+.warrery{
+     height: 500px;
+     width: 500px;
+     border: 1px solid skyblue;
+     position: absolute;
+     left: 25%;
+     top: 25%;
+     margin-left: 250px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background-image: url(../../assets/img/LoginB.jpg);
+     background-size: 100% 100%;
+     .title{
+         flex: 1;
+         color: white;
+         font-size: 24px;
+         font-family: 'PingFang-SC-Bold';
+         margin-bottom: 20px;
+     }
+     .loginFrom{
+         flex: 2;
+         .username{
+             height: 35px;
+             width: 300px;
+             color: white;
+
+         }
+         .password{
+            height: 35px ;
+            width: 300px;
+            margin-bottom: 20px;
+         
+            display: flex;
+            justify-content: space-around;
+       
+            
+
+         }
+         .submit{
+            width: 100%;
+            height: 46px;
+            border-radius: 4px;
+            outline: #36C6EA;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 1);
+            background: #0a94ff;
+            border: 1px solid #0a94ff;
+            margin-bottom: 10px;
+             
+         }
+      
+     }
+     .username::-webkit-input-placeholder{   
+        /* WebKit browsers */   
+           color: pink;   
+       }
+    .password::-webkit-input-placeholder{   
+        /* WebKit browsers */   
+           color: pink;   
+       }
+ 
+}
